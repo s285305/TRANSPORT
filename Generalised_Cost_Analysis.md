@@ -9,7 +9,7 @@
 
 ## 1. OBJECTIVE
 
-Calculate the generalised cost (GC) of a trip from Saluzzo to Torino Porta Susa using:
+Calculate the generalised cost (GC) of a trip from Saluzzo to Politecnico di Torino using:
 - **Private car:** Fiat Panda Cross 2021
 - **Public transport:** Train (Saluzzo → Savigliano → Torino Porta Susa + walking)
 
