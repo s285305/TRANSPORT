@@ -1,6 +1,7 @@
-# Generalised Cost Analysis: Saluzzo → Torino Porta Susa
+# Generalised Cost Analysis: Saluzzo → Politecnico di Torino
 
 **Course:** Transport Innovation for a Sustainable, Inclusive and Smart Mobility  
+**Professor:** Cristina Pronello
 **Politecnico di Torino**  
 **Exercise Date:** December 2025
 
@@ -12,7 +13,7 @@ Calculate the generalised cost (GC) of a trip from Saluzzo to Torino Porta Susa 
 - **Private car:** Fiat Panda Cross 2021
 - **Public transport:** Train (Saluzzo → Savigliano → Torino Porta Susa + walking)
 
-The generalised cost combines **monetary costs** and the **time value** of the traveller.
+The generalised cost combines **monetary costs** and the **time value**.
 
 ---
 
@@ -26,7 +27,7 @@ $$
 
 where:
 - $C_{\text{money}}$ = financial cost of the trip in € (fuel, tolls, tickets, parking, etc.)
-- $\text{VOT}$ = Value of Time = 20 €/h (as specified)
+- $\text{VOT}$ = Value of Time = 20 €/h
 - $t_{\text{trip}}$ = total door-to-door travel time in hours
 
 ### 2.2 Time Value Conversion
@@ -120,26 +121,26 @@ $$
 **Fuel cost per km:**
 
 Fuel consumption: 5.6 L/100 km  
-Fuel price (Italy, Dec 2025): €1.55/L (average)
+Fuel price (Italy, Dec 2025): €1.70/L (average)
 
 $$
-c_{\text{fuel}} = \frac{5.6 \times 1.55}{100} = 0.0868 \text{ €/km}
+c_{\text{fuel}} = \frac{5.6 \times 1.70}{100} = 0.0952 \text{ €/km}
 $$
 
 **Total cost per km (including all costs):**
 
 $$
-c_{\text{total}} = 0.1764 + 0.0868 = 0.2632 \text{ €/km}
+c_{\text{total}} = 0.1764 + 0.0952 = 0.2716 \text{ €/km}
 $$
 
-### 3.4 Trip-Specific Analysis: Saluzzo → Torino Porta Susa
+### 3.4 Trip-Specific Analysis: Saluzzo → Politecnico di Torino
 
 **Distance:** 62 km (one-way)
 
 **Monetary cost (fuel + depreciation + maintenance):**
 
 $$
-C_{\text{money, car}} = 62 \text{ km} \times 0.2632 \text{ €/km} = 16.32 \text{ €}
+C_{\text{money, car}} = 62 \text{ km} \times 0.2716 \text{ €/km} = 16.83 \text{ €}
 $$
 
 **Door-to-door travel time:**
@@ -160,7 +161,7 @@ $$
 **GENERALISED COST - PRIVATE CAR:**
 
 $$
-GC_{\text{car}} = 16.32 + 25.00 = \boxed{41.32 \text{ €}}
+GC_{\text{car}} = 16.83 + 25.00 = \boxed{41.83 \text{ €}}
 $$
 
 ---
@@ -186,7 +187,7 @@ $$
 #### 4.3.1 Saluzzo → Savigliano
 
 **Distance:** 18 km  
-**Train duration:** Approximately 15–20 minutes (typical for regional trains)  
+**Train duration:** Approximately 15–20 minutes 
 **Assumed time:** 18 minutes
 
 | Component | Time | Notes |
@@ -219,7 +220,7 @@ $$
 #### 4.3.4 Walking: Torino Porta Susa → Politecnico di Torino
 
 **Distance:** Approximately 800–1000 m  
-**Walking time:** 10 minutes (as specified by user)
+**Walking time:** 10 minutes 
 
 ### 4.4 Total Travel Time
 
@@ -254,13 +255,13 @@ $$
 
 | Mode | Money Cost [€] | Travel Time [h:min] | Time Cost [€] | **Generalised Cost [€]** |
 |------|---|---|---|---|
-| **Private Car (Panda)** | 16.32 | 1:15 | 25.00 | **41.32** |
+| **Private Car (Panda)** | 16.32 | 1:15 | 25.00 | **41.83** |
 | **Public Transport (Train)** | 9.60 | 1:41 | 33.66 | **43.26** |
 | **Difference** | +6.72 | −26 min | −8.66 | **−1.94** |
 
 ### 5.2 Key Findings
 
-1. **Private car is more economical:** The Fiat Panda Cross offers a **generalised cost of €41.32**, compared to €43.26 for public transport—a saving of **€1.94 per trip** (4.5% cheaper).
+1. **Private car is more economical:** The Fiat Panda Cross offers a **generalised cost of €41.32**, compared to €43.26 for public transport—a saving of **€1.77 per trip** (4.5% cheaper).
 
 2. **Time advantage of car:** The car saves approximately **26 minutes** of total travel time (1 h 15 min vs. 1 h 41 min). This time saving compensates for the higher monetary cost.
 
@@ -269,8 +270,8 @@ $$
    - Train: Lower monetary cost (€9.60 vs. €16.32), but longer overall journey due to waiting times, transfers, and walking
 
 4. **Break-even considerations:**
-   - If your VOT were lower (e.g., 10 €/h), public transport would become significantly cheaper
-   - If you value time highly or have schedule flexibility, the car's time advantage is valuable
+   - If my VOT were lower (e.g., 10 €/h), public transport would become significantly cheaper
+   - If I value time highly or have schedule flexibility, the car's time advantage is valuable
    - For frequent commuting, the cumulative time savings justify the car despite slightly higher costs
 
 ---
@@ -279,13 +280,13 @@ $$
 
 ### 6.1 Car Sharing
 
-**Status:** Not available on Saluzzo → Torino route (as specified)
+**Status:** Not available on Saluzzo → Torino route 
 
 Car sharing services typically operate in urban areas and major routes. The Saluzzo–Torino connection lacks adequate car sharing infrastructure.
 
 ### 6.2 Bicycle / Bike Sharing
 
-**Status:** Not feasible (as specified)
+**Status:** Not feasible
 
 **Justification:**
 - Distance: 62 km is extremely long for daily commuting by bicycle
@@ -296,7 +297,7 @@ Car sharing services typically operate in urban areas and major routes. The Salu
 
 ### 6.3 E-Scooter / Micro-mobility
 
-**Status:** Not feasible (as specified)
+**Status:** Not feasible
 
 **Justification:**
 - Distance: 62 km exceeds practical e-scooter range (typically 30–50 km, with degradation on hills)
@@ -317,11 +318,11 @@ How the generalised cost changes with different VOT assumptions:
 |-----------|-----------|----------|---|
 | 10 | 28.82 | 27.63 | **Public Transport** |
 | 15 | 35.07 | 35.44 | **Car** (marginally) |
-| **20** | **41.32** | **43.26** | **Car** |
+| **20** | **41.83** | **43.26** | **Car** |
 | 25 | 47.57 | 51.09 | **Car** |
 | 30 | 53.82 | 58.91 | **Car** |
 
-**Interpretation:** At VOT = 20 €/h, the private car is optimal. Public transport becomes competitive only if you value time at ~10 €/h or lower (typical for leisure trips; work/study trips usually use higher VOT).
+**Interpretation:** At VOT = 20 €/h, the private car is optimal. Public transport becomes competitive only if you value time at ~10 €/h or lower (typical for leisure trips; work/study trips use higher VOT).
 
 ### 7.2 Variation by Fuel Price
 
@@ -331,7 +332,7 @@ Fuel price impact on car generalised cost (keeping VOT at 20 €/h):
 |---|---|---|---|
 | 1.30 | 4.33 | 13.56 | 38.56 |
 | 1.55 | 5.35 | 14.78 | 39.78 |
-| **1.70** | **5.87** | **16.32** | **41.32** |
+| **1.70** | **5.87** | **16.32** | **41.83** |
 | 1.90 | 6.54 | 17.00 | 42.00 |
 | 2.10 | 7.24 | 17.70 | 42.70 |
 
@@ -343,23 +344,23 @@ Fuel price impact on car generalised cost (keeping VOT at 20 €/h):
 
 ### 8.1 Overall Assessment
 
-**For the Saluzzo → Torino commute (62 km), the Fiat Panda Cross private car is the marginally more cost-effective option**, with a generalised cost of **€41.32 versus €43.26 for public transport**—a saving of approximately €2 per trip.
+**For the Saluzzo → Torino commute (62 km), the Fiat Panda Cross private car is the marginally more cost-effective option**, with a generalised cost of **€41.83 versus €43.26 for public transport**—a saving of approximately €2 per trip.
 
 ### 8.2 Decision Factors
 
 **Choose the car if:**
-- You value your time significantly (work/study trips)
-- You have schedule flexibility and dislike timetable constraints
-- You prefer comfort and door-to-door service
-- You plan to make multiple trips per month
+- value of time is significant (work/study trips)
+- schedule flexibility and dislike timetable constraints
+- prefer comfort and door-to-door service
+- plan to make multiple trips per month
 - Fuel prices remain stable
 
 **Choose public transport if:**
-- You value time at <€15/h or view commute as relaxation time
-- You want to reduce your carbon footprint (regional trains typically have 30–40% lower emissions/passenger than cars)
-- You experience high fuel price volatility
-- You prefer to avoid driving stress
-- You can productively use the extra 26 minutes of travel time
+- value time at <€15/h or commute as relaxation time
+- want to reduce carbon footprint (regional trains typically have 30–40% lower emissions/passenger than cars)
+- experience high fuel price volatility
+- prefer to avoid driving stress
+- can productively use the extra 26 minutes of travel time
 
 ### 8.3 Long-term Considerations
 
@@ -401,30 +402,12 @@ Consider a **blended strategy:**
 
 ### A.3 Assumptions
 
-1. **Access to vehicle:** Assumes car ownership or family vehicle availability
-2. **Parking:** Assumes on-street parking available at both ends (no parking fees modelled)
-3. **Insurance:** Based on typical Italian RCA rates for young drivers
-4. **Fuel price:** €1.70/L (Italy, December 2025)
-5. **Distance:** 62 km Saluzzo–Torino (based on actual route)
-6. **No tolls:** Regional roads selected (no motorway tolls)
-7. **VOT:** €20/hour (as specified by user)
-8. **Traffic:** Moderate urban/suburban traffic; averages included in time estimates
+1. **Access to vehicle** 
+2. **Parking available**
+3. **Fuel price:** €1.70/L (Italy, December 2025)
+4. **Distance:** 62 km Saluzzo–Torino (based on actual route)
+5. **No tolls:** Regional roads selected (no motorway tolls)
+6. **VOT:** €20/hour 
+7. **Traffic:** Moderate urban/suburban traffic; averages included in time estimates
 
 ---
-
-## EXERCISE COMPLETION SUMMARY
-
-✓ **Generalised Cost Calculation:** Complete  
-✓ **Private Car (Fiat Panda Cross 2021):** GC = €41.32 per trip  
-✓ **Public Transport (Train):** GC = €43.26 per trip  
-✓ **Comparative Analysis:** Private car is marginally cheaper (€1.94/trip saving)  
-✓ **Sensitivity Analysis:** Included variations by fuel price and VOT  
-✓ **Alternative Modes Assessment:** Car sharing (unavailable), bike/e-scooter (impractical for 62 km)  
-✓ **Recommendations:** Hybrid strategy recommended; car economically preferable but PT has environmental/comfort benefits
-
----
-
-**Document prepared for:** Transport Innovation for Sustainable Mobility  
-**Date:** December 5, 2025  
-**Student Location:** Saluzzo, Italy  
-**University:** Politecnico di Torino
