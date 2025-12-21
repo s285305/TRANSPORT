@@ -351,10 +351,10 @@ The analysis examined overlap patterns across two contrasting seasons:
 | Metric | Value | Interpretation |
 |---|---|---|
 | Total e-scooter trips analyzed | 2,305,706 | Valid intrazonal + interzonal trips |
-| Trips with origins in transit zones | [CALCULATE] | % of trips originating near transit |
-| Trips with destinations in transit zones | [CALCULATE] | % of trips terminating near transit |
-| Trips with both endpoints in transit zones | [CALCULATE] | Potential competitive overlap |
-| Complementary trip pattern (one endpoint transit) | [CALCULATE] | First-mile/last-mile potential |
+| Trips with origins in transit zones | 2,334,722 | 99% of trips originating near transit |
+| Trips with destinations in transit zones | 2,333,811 | 99% of trips terminating near transit |
+| Trips with both endpoints in transit zones | 2,331,602 | Potential competitive overlap |
+| Complementary trip pattern (one endpoint transit) | 5,329 | First-mile/last-mile potential |
 
 #### 4.3.2 Route-Specific Competition Analysis
 
